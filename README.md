@@ -1,6 +1,10 @@
+## To-Do List Project
+
+# Made using Java Swing Library to make the GUI, and used JDBC to connect it to a MySQL database.
+
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Welcome to the VS Code Java world. Here is a guideline to help you get started writing Java code in Visual Studio Code.
 
 ## Folder Structure
 
