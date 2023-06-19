@@ -1,6 +1,6 @@
 ## To-Do List Project
 
-# Made using Java Swing Library to make the GUI, and used JDBC to connect it to a MySQL database.
+Made using Java Swing Library to make the GUI, and used JDBC to connect it to a MySQL database.
 
 ## Getting Started
 
