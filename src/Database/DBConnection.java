@@ -12,12 +12,13 @@ public class DBConnection{
     
     public DBConnection(){
         try {
-            String createTableQuery = "CREATE TABLE IF NOT EXISTS ITE409.task ("
+            String createTableQuery = "CREATE TABLE IF NOT EXISTS /* Schema name and the name of the table */ ("
                 + "id INT AUTO_INCREMENT PRIMARY KEY,"
                 + "title VARCHAR(255) NOT NULL,"
                 + "due_date DATE NOT NULL"
                 + ")";	
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/?user=root", "root", "12344321");
+            //insert your URL, username, and password for the database to connect.
+            connection = DriverManager.getConnection("/* url */", "/* username */", "/* password */");
             statement = connection.createStatement();
             statement.executeUpdate(createTableQuery);
         } catch (SQLException e) {
